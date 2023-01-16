@@ -1,0 +1,151 @@
+/* !Body */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: darkslategray;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 30%;
+    padding: 5px;
+}
+
+.right {
+    width: 70%;
+    padding: 0 20px 0 20px;
+}
+
+hr {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* ? Phone Screen size */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+main {
+    padding: 5px;
+}
+
+/* !Contact Information Column */
+img {
+    width: 100%;
+    height: 60vh;
+}
+
+.contactInfo--leftColumn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+.contactInfo--name > h2{
+    margin: 0;
+    padding: 20px 0 10px 15px;
+}
+
+.contactInfo--container {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+
+.contactInfo--about > p {
+    margin: 0;
+    padding: 20px 5px 0 0;
+    width: 100%;
+}
+
+.fa-fw {
+    font-size: 18px;
+    padding-right: 35px;
+    color: lightslategray;
+}
+
+.contactInfo--skillSet > h2, p {
+    margin: 0;
+}
+
+.contactInfo--skillSet > h2 {
+    padding: 30px 0 20px 0;
+}
+
+.contactInfo--skillSet > p {
+    padding: 10px 0 10px 10px;
+}
+
+.fa-asterisk, .fa-globe, .fa-suitcase, .fa-certificate {
+    padding-right: 15px;
+    font-size: xx-large;
+    color: lightslategray;
+}
+
+.contactInfo--language > h2, p {
+    margin: 0;
+}
+
+.contactInfo--language > h2 {
+    padding: 30px 0 20px 0;
+}
+
+.contactInfo--language > p {
+    padding: 10px 0 10px 10px;
+}
+
+.contactInfo--progress-bar, .skills {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px 0 10px 0;
+    color: whitesmoke;
+}
+
+.figma, .js{background-color: slategray;}
+.figma {width: 60%;}
+.js {width: 50%;}
+
+.english, .xitsonga, .afrikaans {background-color: slategray;}
+.english {width: 70%;}
+.xitsonga {width: 80%;}
+.afrikaans {width: 40%;}
+
+/* !cards */
+.workExperience--card, .education--card  {
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 10px 10px 10px;
+}
+
+/* !Work Experience */
+.fa-calendar {
+    padding-right: 15px;
+    font-size: 20px;
+} 
+
+.pad-top {
+    padding-top: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
